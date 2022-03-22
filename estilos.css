@@ -21,6 +21,7 @@ body{
     margin-right: 200px;
 }
 #fotos{
+    margin-top: 100px;
     margin-left: 200px;
    
 }
@@ -31,10 +32,15 @@ body{
 }
 
 .logo{
-    max-width: 40px;
-    max-height: 40px
+    max-width: 20px;
+    max-height: 20px
 }
 .logo{
     margin-right: 10px;
     align-content: center;
+}
+#contacto{
+    margin-top: 100px;
+    margin-left: 700px;
+    margin-right: 400px;
 }
