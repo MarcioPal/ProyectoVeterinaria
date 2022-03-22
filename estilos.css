@@ -1,0 +1,40 @@
+h1{
+    font-size: larger;
+}
+body{
+    background-color: antiquewhite;
+}
+#enRojo{
+    color: red;
+    font-size: 25px;
+}
+
+#final{
+    display: inline-block;
+}
+.imagenes{
+    max-width: 200px;
+    max-height: 200px
+}
+#foto1,#foto2,#foto3{
+    display: inline-block;
+    margin-right: 200px;
+}
+#fotos{
+    margin-left: 200px;
+   
+}
+#presentacion{
+    margin-right: 400;
+    margin-left: 400;
+    text-align: center;
+}
+
+.logo{
+    max-width: 40px;
+    max-height: 40px
+}
+.logo{
+    margin-right: 10px;
+    align-content: center;
+}
