@@ -4,14 +4,25 @@ h1{
 body{
     background-color: antiquewhite;
 }
+#final{
+    display: inline-block;
+}
+
+
+@media screen and (min-width:1600px){
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+
 #enRojo{
     color: red;
     font-size: 25px;
 }
 
-#final{
-    display: inline-block;
-}
+
 .imagenes{
     max-width: 200px;
     max-height: 200px
@@ -26,21 +37,62 @@ body{
    
 }
 #presentacion{
-    margin-right: 400;
-    margin-left: 400;
+    margin-right: 400px;
+    margin-left: 400px;
     text-align: center;
 }
 
 .logo{
     max-width: 20px;
-    max-height: 20px
-}
-.logo{
+    max-height: 20px;
     margin-right: 10px;
     align-content: center;
 }
+
 #contacto{
     margin-top: 100px;
     margin-left: 700px;
     margin-right: 400px;
+}
+}
+
+
+@media screen and (min-width: 720px) and (max-width: 1599px) {
+    .imagenes{
+        max-width: 90px;
+        max-height: 90px
+    }
+    .logo{
+        max-width: 9px;
+        max-height: 9px;
+        margin-right: 4.5px;
+        align-content: center;
+    }
+    #contacto{
+        margin-top: 142.22px;
+        margin-left: 315px;
+        margin-right: 180px;
+    }
+   
+    
+    #enRojo{
+        color: red;
+        font-size: 11.25px;
+    }
+    #presentacion{
+        margin-right: 180;
+        margin-left: 180;
+        text-align: center;
+    }
+    #foto1,#foto2,#foto3{
+        display: inline-block;
+        margin-right: 90px;
+    }
+    #fotos{
+        margin-top: 142.22px;
+        margin-left: 90px;
+       
+    }
+
+
 }
